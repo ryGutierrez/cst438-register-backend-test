@@ -57,7 +57,7 @@ public class Cst4380wRegistrationApplicationTests {
 	static final String URL = "https://localhost:8080";
 	
 	@Test
-	public void addExistingStudent() throws Exception {
+	public void addStudent() throws Exception {
 		MockHttpServletResponse response;
 		
 		Student student = new Student();
