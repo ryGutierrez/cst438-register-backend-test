@@ -30,6 +30,7 @@ public class CourseController {
 			e.setCourseGrade(g.grade);
 			enrollmentRepository.save(e);
 		}
+
 		
 	}
 
